@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.box {
+    position: relative;
+    height: 500px;
+    width: 400px;
+    background: url(img/kate_moss.jpg), url(img/bc.jpg);
+    background-size: cover;
+    transition: 2s;
+}
+
+.box:hover {
+    background-blend-mode: color-burn;
+    filter: grayscale(1);
+}
